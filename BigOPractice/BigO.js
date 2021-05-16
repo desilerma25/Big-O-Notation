@@ -3,6 +3,9 @@ const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', '
 
 const large = new Array(100).fill('nemo')
 // creates array with nemo 100 times
+const larger = new Array(1000).fill('nemo')
+const massive = new Array(100000).fill('nemo')
+
 
 function findNemo(array) {
     let t0 = performance.now();
@@ -16,7 +19,7 @@ function findNemo(array) {
 }
 
 findNemo(nemo);
-
 findNemo(everyone);
-
 findNemo(large);
+findNemo(larger);
+findNemo(massive);
