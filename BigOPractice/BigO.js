@@ -18,3 +18,5 @@ function findNemo(array) {
 findNemo(nemo);
 
 findNemo(everyone);
+
+findNemo(large);
