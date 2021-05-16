@@ -1,3 +1,8 @@
+var performance = require('performance');
+var results = performance.runBenchmarks();
+console.log(results);
+
+
 const nemo = ['nemo'];
 const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla', 'hank'];
 
